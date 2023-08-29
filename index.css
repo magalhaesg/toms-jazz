@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --color-primary: #3C5EFF;
+    --color-secondary: #FF9A3C;
+    --color-white: #F5F5F5;
+}
+
+body {
+    background-color: #FFF2E5;
+    padding: 0 1rem;
+}
+
+header, .hero-section, .courser-section, footer {
+    border-color: black;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+header img {
+    display: block;
+    margin: 1rem auto;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header nav a:nth-child(2n-1){
+    text-align: right;
+}
+
+nav a {
+    color: black;
+    font-size: 1.25rem;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+span{
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3.2rem;
+    line-height: 110%;
+}
+
+h2{
+    font-size: 2.3rem;
+}
+
+
+.hero-section{
+    padding-bottom: 16rem;
+    padding-right: 0;
+}
+
+.hero-section p {
+    font-size: 1.20rem;
+    padding-right: 1.25rem;
+}
+
+.button{
+    width: 60%;
+    margin-top: 1rem;
+    font-family: Roboto, sans-serif;
+    font-weight: 0;
+    font-size: 14px;
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    padding: 10px 30px;
+    border: 2px solid var(--color-primary);
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    
+.button:hover{
+
+transition : 1000ms;
+padding: 10px 50px;
+transform : translateY(-0px);
+background-color: var(--color-white);
+color: var(--color-primary);
+border: solid 2px var(--color-primary);
+}
+
+.hero-section .button {
+    position: relative;
+}
+.hero-section .button::after {
+    content: '';
+    background: url(img/arrow-curve.svg);
+    position: absolute;
+    top: 5rem;
+    right: -7rem;
+    height: 48px;
+    width: 132px;
+}
+
+.decoration {
+    display: block;
+    position: relative;
+}
+
+.decoration::after {
+    content: '';
+    background: url(img/three-dashes.svg);
+    position: absolute;
+    height: 36px;
+    width: 40px;
+    top: 40px;
+    left: 245px;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-primary {
+    color: var(--color-primary);
+}
+.text-center {
+    text-align: center;
+}
