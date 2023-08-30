@@ -9,81 +9,91 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap">
 </head>
 <body>
     <header>
-        <img src="img/logo.svg" alt="Tom's Jaz School">
-        <nav class="mt-1 mx-auto">
-            <a href="#">Inicio</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contatos</a>
-        </nav>
-        <a href="#" class="button mt-1 mx-auto">Se inscreva</a>
+        <div class="container">
+            <img src="img/logo.svg" alt="Tom's Jaz School">
+            <nav class="mx-auto">
+                <a href="#">Inicio</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contatos</a>
+            </nav>
+            <a href="#" class="button mt-1 mx-auto">Se inscreva</a>
+        </div>
     </header>
     <main>
         <section class="hero-section">
-            <img src="img/hero-img.svg" style="display: block; margin: 0 0 0 auto; max-width: 100%;" alt="Banda de jazz tocando">
-            <div>
-                <h1 class="mt-2 decoration">Crie algo <span>impactante</span> com música</h1>
-                <p class="mt-2 mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <a href="#" class="button">Comece agora</a>
+            <div class="container row-reverse">
+                <img src="img/hero-img.svg" style="display: block; margin: 0 0 0 auto; max-width: 100%;" alt="Banda de jazz tocando">
+                <div>
+                    <h1 class="mt-2 decoration">Crie algo <span>impactante</span> com música</h1>
+                    <p class="mt-2 mb-2">Explore o mundo do jazz conosco e descubra a harmonia única entre ritmo, melodia e improvisação. Na Tom's Jazz School, oferecemos uma jornada excepcional de aprendizado e expressão musical.</p>
+                    <a href="#" class="button">Comece sua jornada</a>
+                </div>
             </div>
         </section>
         <section class="courser-section">
-            <div class="cards">
-                <article>
-                    <img src="img/piano.png" alt="Tecla de piano">
-                    <strong>Piano Popular</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="Seta para direita">
-                    </a>                
-                </article>
-                <article>
-                    <img src="img/clef.png" alt="Clave de sol">
-                    <strong>Teoria musical</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="Seta para direita">
-                    </a>                
-                </article>
-                <article>
-                    <img src="img/sax.png" alt="Saxofone">
-                    <strong>Sax alto</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="Seta para direita">
-                    </a>                
-                </article>
-                <article>
-                    <img src="img/drums.png" alt="Bateria">
-                    <strong>Bateria</strong>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="Seta para direita">
-                    </a>                
-                </article>
+            <div>
+                <div class="cards">
+                    <article class="card">
+                        <img src="img/piano.png" alt="Tecla de piano">
+                        <strong>Piano Popular</strong>
+                        <p>Explore a elegância do piano jazz e domine as progressões de acordes, escalas e improvisações. Este curso é perfeito para iniciantes e músicos experientes que desejam mergulhar no mundo do jazz.</p>
+                        <a href="#">
+                            <img src="img/arrow-right.svg" alt="Seta para direita">
+                        </a>                
+                    </article>
+                    <article class="card">
+                        <img src="img/clef.png" alt="Clave de sol">
+                        <strong>Teoria musical</strong>
+                        <p>Compreender as bases da teoria jazz é essencial para se destacar como músico. Neste curso, você aprenderá sobre acordes avançados, modulações e estruturas harmônicas únicas do jazz.</p>
+                        <a href="#">
+                            <img src="img/arrow-right.svg" alt="Seta para direita">
+                        </a>                
+                    </article>
+                    <article class="card">
+                        <img src="img/sax.png" alt="Saxofone">
+                        <strong>Sax alto</strong>
+                        <p>Liberte sua criatividade através do saxofone. Este curso oferece uma jornada emocionante pelo mundo da improvisação jazzística, ajudando você a criar solos cativantes e expressivos.</p>
+                        <a href="#">
+                            <img src="img/arrow-right.svg" alt="Seta para direita">
+                        </a>                
+                    </article>
+                    <article class="card">
+                        <img src="img/drums.png" alt="Bateria">
+                        <strong>Ritmos de Jazz na Bateria</strong>
+                        <p>Domine a complexidade dos ritmos jazz na bateria. Este curso aborda desde os ritmos tradicionais até as batidas inovadoras, proporcionando uma base sólida para suas performances.</p>
+                        <a href="#">
+                            <img src="img/arrow-right.svg" alt="Seta para direita">
+                        </a>                
+                    </article>
+                </div>
+                <h2 class="text-center">E <span class="text-primary" style="color: #FF9A3C;">Vários</span> outros!</h2>
+                <a href="#" class="button mx-auto">Conheça todos os cursos</a>
             </div>
-            <h2>E <span>Vários</span> outros!</h2>
-            <a href="#" class="button">Conhecer os cursos</a>
         </section>
     </main>
     <footer>
-        <div>
-            <img src="img/logo.svg" alt="Tom's Jazz School"> 
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        <div class="container">
+            <div class="about">
+                <img class="" src="img/logo.svg" alt="Tom's Jazz School"> 
+                <p class="mt-1 mb-2">Na Tom's Jazz School, estamos empenhados em compartilhar a rica herança do jazz e nutrir a criatividade musical. Junte-se a nós nessa jornada e deixe sua voz ser ouvida.</p>
+            </div>
+            <nav class="mb-2">
+                <a href="#">Inicio</a>
+                <a href="#">Cursos</a>
+                <a href="#">Eventos</a>
+                <a href="#">Contatos</a>
+            </nav>
+            <form class="newsletter">
+                <label for="email">Receba materiais gratuitos no seu email.</label>
+                <input class="mx-auto" type="email" name="email" id="email" placeholder="Digite seu email.">
+                <button class="button" style="max-width: 190px;">QUERO RECEBER</button>
+            </form>
         </div>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Cursos</a>
-            <a href="#">Eventos</a>
-            <a href="#">Contatos</a>
-        </nav>
-        <form>
-            <label for="email">Receba materiais gratuitos no seu email.</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu email.">
-        </form>
     </footer>
 </body>
 </html>
